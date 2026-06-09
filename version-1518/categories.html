@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>分类浏览 - 电视剧在线</title>
+    <meta name="description" content="电视剧在线提供最新最全的国产电视剧、欧美剧、日韩剧等高清影视资源，全部免费在线观看，更新及时，播放流畅。热播国产剧、经典欧美剧、精彩日韩剧，尽在电视剧在线。">
+    <meta name="keywords" content="电视剧在线,国产剧,欧美剧,日韩剧,免费电视剧,高清电视剧,在线观看,热播剧,国产电视剧">
+    <link rel="stylesheet" href="./assets/original.css">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20 gap-4">
+                <a href="./index.html" class="flex items-center gap-2 group flex-shrink-0">
+                    <span class="w-10 h-10 rounded-full bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center group-hover:scale-110 transition-transform text-white font-bold">剧</span>
+                    <span class="hidden sm:block">
+                        <span class="block text-xl font-bold text-gray-900 group-hover:text-teal-600 transition-colors">电视剧在线</span>
+                        <span class="block text-xs text-gray-500">高清影视 免费观看</span>
+                    </span>
+                </a>
+                <nav class="hidden md:flex items-center gap-4">
+                    <a href="./index.html" class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-700 hover:text-teal-600 hover:bg-teal-50">首页</a>
+                    <div class="relative group">
+                        <a href="./categories.html" class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-teal-600 bg-teal-50">分类浏览</a>
+                        <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                            <div class="p-2">
+                            <a href="./category-domestic-drama.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">国产热播</a>
+                            <a href="./category-suspense-crime.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">悬疑犯罪</a>
+                            <a href="./category-action-adventure.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">动作冒险</a>
+                            <a href="./category-sci-fi-fantasy.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">科幻奇幻</a>
+                            <a href="./category-comedy-variety.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">喜剧综艺</a>
+                            <a href="./category-romance-life.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">爱情生活</a>
+                            <a href="./category-animation-family.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">动画家庭</a>
+                            <a href="./category-korea-japan.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">日韩精选</a>
+                            <a href="./category-euro-america.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors">欧美剧场</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./ranking.html" class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-700 hover:text-teal-600 hover:bg-teal-50">热播排行</a>
+                    <a href="./search.html" class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-700 hover:text-teal-600 hover:bg-teal-50">搜索筛选</a>
+                </nav>
+                <form action="./search.html" class="hidden lg:flex items-center flex-1 max-w-xl">
+                    <input type="search" name="q" class="w-full px-4 py-3 rounded-l-full bg-gray-100 border border-gray-200 text-sm focus:outline-none focus:border-teal-500" placeholder="搜索剧名、地区、题材">
+                    <button class="px-5 py-3 rounded-r-full bg-teal-500 text-white text-sm font-semibold hover:bg-teal-600 transition-colors" type="submit">搜索</button>
+                </form>
+                <button type="button" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors" data-mobile-menu-button>
+                    <span class="block w-6 h-0.5 bg-gray-700 mb-1"></span>
+                    <span class="block w-6 h-0.5 bg-gray-700 mb-1"></span>
+                    <span class="block w-6 h-0.5 bg-gray-700"></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-panel md:hidden border-t border-gray-200 bg-white" data-mobile-menu-panel>
+            <nav class="px-4 py-4 space-y-2">
+                <a href="./index.html" class="block px-4 py-3 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">首页</a>
+                <a href="./categories.html" class="block px-4 py-3 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">分类浏览</a>
+                <div class="pl-4 space-y-1">
+                    <a href="./category-domestic-drama.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">国产热播</a>
+                    <a href="./category-suspense-crime.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">悬疑犯罪</a>
+                    <a href="./category-action-adventure.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">动作冒险</a>
+                    <a href="./category-sci-fi-fantasy.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">科幻奇幻</a>
+                    <a href="./category-comedy-variety.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">喜剧综艺</a>
+                    <a href="./category-romance-life.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">爱情生活</a>
+                    <a href="./category-animation-family.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">动画家庭</a>
+                    <a href="./category-korea-japan.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">日韩精选</a>
+                    <a href="./category-euro-america.html" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">欧美剧场</a>
+                </div>
+                <a href="./ranking.html" class="block px-4 py-3 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">热播排行</a>
+                <a href="./search.html" class="block px-4 py-3 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">搜索筛选</a>
+                <form action="./search.html" class="flex items-center pt-2">
+                    <input type="search" name="q" class="w-full px-4 py-3 rounded-l-full bg-gray-100 border border-gray-200 text-sm focus:outline-none" placeholder="搜索片名">
+                    <button class="px-4 py-3 rounded-r-full bg-teal-500 text-white text-sm font-semibold" type="submit">搜索</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <section class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 md:p-12 mb-12">
+            <p class="text-sm font-semibold text-teal-600 mb-3">频道总览</p>
+            <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-5">电视剧在线分类浏览</h1>
+            <p class="max-w-3xl text-gray-600 text-lg leading-relaxed">国产电视剧、欧美剧、日韩剧、动作冒险、悬疑犯罪、科幻奇幻、喜剧综艺等内容分频道呈现，直接进入频道即可观看对应影片。</p>
+        </section>
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-domestic-drama.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./3.jpg" alt="国产热播" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">国产热播</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">聚合国产剧、都市情感、现实题材、古装传奇与家庭故事。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0003.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">老爸老妈看我的第一季</a><a href="./movie-0021.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">我是岁月你是星辰</a><a href="./movie-0022.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">乙未之风雨摧城</a>
+                        </div>
+                        <a href="./category-domestic-drama.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-suspense-crime.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./2.jpg" alt="悬疑犯罪" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">悬疑犯罪</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">收录悬疑、犯罪、惊悚、推理、复仇与黑色题材佳作。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0002.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">纹身杀手</a><a href="./movie-0011.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">生日蛋糕</a><a href="./movie-0018.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">恶灵弥赛亚</a>
+                        </div>
+                        <a href="./category-suspense-crime.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-action-adventure.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./8.jpg" alt="动作冒险" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">动作冒险</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">网罗动作、冒险、战争、武侠、探险与热血视听作品。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0008.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">749局</a><a href="./movie-0012.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">绿光战警 惧吾神光</a><a href="./movie-0024.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">企鹅历险记</a>
+                        </div>
+                        <a href="./category-action-adventure.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-sci-fi-fantasy.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./1.jpg" alt="科幻奇幻" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">科幻奇幻</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">精选科幻、奇幻、超自然、神话、异能与想象力大片。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0001.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">失落的帝国:神秘的水晶</a><a href="./movie-0015.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">月老</a><a href="./movie-0028.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">爱有来世</a>
+                        </div>
+                        <a href="./category-sci-fi-fantasy.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-comedy-variety.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./6.jpg" alt="喜剧综艺" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">喜剧综艺</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">涵盖喜剧、真人秀、综艺、黑色幽默与轻松娱乐内容。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0006.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">坑蒙拐骗外星人</a><a href="./movie-0017.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">战门</a><a href="./movie-0023.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">但愿我是平凡人</a>
+                        </div>
+                        <a href="./category-comedy-variety.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-romance-life.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./9.jpg" alt="爱情生活" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">爱情生活</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">汇集爱情、青春、职场、治愈、文艺与生活流故事。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0009.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">特色街道</a><a href="./movie-0010.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">舞会惊魂</a><a href="./movie-0027.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">喜欢你我也是第五季</a>
+                        </div>
+                        <a href="./category-romance-life.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-animation-family.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./5.jpg" alt="动画家庭" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">动画家庭</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">面向动画、动漫、亲子、家庭、成长与全年龄观影内容。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0005.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">宝莲灯1999</a><a href="./movie-0014.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">家庭护理</a><a href="./movie-0032.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">驳命老公追老婆粤语</a>
+                        </div>
+                        <a href="./category-animation-family.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-korea-japan.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./4.jpg" alt="日韩精选" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">日韩精选</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">呈现韩国、日本及日韩风格剧集、电影与动画内容。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0004.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">第七个被害者</a><a href="./movie-0016.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">街头男战士</a><a href="./movie-0020.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">爱上老板的女儿</a>
+                        </div>
+                        <a href="./category-korea-japan.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border border-gray-100 overflow-hidden">
+                    <a href="./category-euro-america.html" class="block">
+                        <div class="relative aspect-video card-cover overflow-hidden">
+                            <img src="./7.jpg" alt="欧美剧场" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                            <h2 class="absolute bottom-4 left-4 right-4 text-2xl font-bold text-white">欧美剧场</h2>
+                        </div>
+                    </a>
+                    <div class="p-5">
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">精选美国、英国、法国、德国、西班牙、意大利等欧美内容。</p>
+                        <div class="space-y-2 mb-5">
+                            <a href="./movie-0007.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">法尔什家族</a><a href="./movie-0013.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">蜜月计划</a><a href="./movie-0019.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors line-clamp-1">导尽我梦想:李察连利加</a>
+                        </div>
+                        <a href="./category-euro-america.html" class="inline-block px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold hover:bg-teal-500 hover:text-white transition-colors">进入频道</a>
+                    </div>
+                </article>
+
+        </section>
+    </main>
+
+
+    <footer class="bg-gradient-to-b from-gray-50 to-gray-100 border-t border-gray-200 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="w-10 h-10 rounded-full bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center text-white font-bold">剧</span>
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900">电视剧在线</h3>
+                            <p class="text-xs text-gray-500">高清影视 免费观看</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 leading-relaxed">电视剧在线提供最新最全的国产电视剧、欧美剧、日韩剧等高清影视资源，全部免费在线观看，更新及时，播放流畅。热播国产剧、经典欧美剧、精彩日韩剧，尽在电视剧在线。</p>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-gray-900 mb-4">快速导航</h4>
+                    <nav class="space-y-2">
+                        <a href="./index.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">首页</a>
+                        <a href="./categories.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">分类浏览</a>
+                        <a href="./ranking.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">热播排行</a>
+                        <a href="./search.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">搜索筛选</a>
+                    </nav>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-gray-900 mb-4">热门频道</h4>
+                    <nav class="space-y-2">
+                        <a href="./category-domestic-drama.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">国产热播</a>
+                        <a href="./category-suspense-crime.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">悬疑犯罪</a>
+                        <a href="./category-action-adventure.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">动作冒险</a>
+                        <a href="./category-sci-fi-fantasy.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">科幻奇幻</a>
+                        <a href="./category-comedy-variety.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">喜剧综艺</a>
+                        <a href="./category-romance-life.html" class="block text-sm text-gray-600 hover:text-teal-600 transition-colors">爱情生活</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
+                <p>© 2026 电视剧在线. 高清影视内容导航。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/app.js"></script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    background: #f9fafb;
+    color: #111827;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero-slide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hero-slide.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hero-dot.active {
+    width: 2rem;
+    background: #ffffff;
+}
+
+.movie-card.is-hidden {
+    display: none;
+}
+
+.mobile-panel {
+    display: none;
+}
+
+.mobile-panel.open {
+    display: block;
+}
+
+.video-play-button.is-hidden {
+    display: none;
+}
+
+.search-empty {
+    display: none;
+}
+
+.search-empty.show {
+    display: block;
+}
+
+.card-cover {
+    background: linear-gradient(135deg, #0f766e, #0891b2);
+}
+
+.detail-prose p {
+    margin-bottom: 1rem;
+}
+
+.rank-number {
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        height: 72vh;
+    }
+}

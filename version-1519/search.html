@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索 - 电视剧在线</title>
+  <meta name="description" content="电视剧在线影片搜索，支持片名、年份、地区、类型和标签查询。">
+  <meta name="keywords" content="电视剧在线,国产剧,欧美剧,日韩剧,免费电视剧,高清电视剧,在线观看,热播剧,国产电视剧">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="电视剧在线">
+      <span class="brand-icon">剧</span>
+      <span class="brand-text">
+        <strong>电视剧在线</strong>
+        <small>高清视频在线播放</small>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rankings.html">排行榜</a>
+      <a href="search.html">搜索</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-label="展开菜单" data-nav-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类</a>
+    <a href="rankings.html">排行榜</a>
+    <a href="search.html">搜索</a>
+  </nav>
+</header>
+<main class="page-main">
+  <section class="container page-hero compact-hero search-hero">
+    <span class="section-kicker">影片搜索</span>
+    <h1>搜索高清电视剧与电影</h1>
+    <p>输入片名、地区、年份、类型或标签，快速找到可在线播放的影片详情。</p>
+  </section>
+  <section class="container section-block search-panel">
+    <div class="global-search-box">
+      <input type="search" placeholder="输入关键词开始搜索" data-global-search autofocus>
+      <button type="button" data-global-clear>清空</button>
+    </div>
+    <div class="search-results movie-grid" data-search-results></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <span class="brand-icon">剧</span>
+        <div>
+          <strong>电视剧在线</strong>
+          <small>免费电视剧与高清影视资源</small>
+        </div>
+      </div>
+      <p>电视剧在线提供最新最全的国产电视剧、欧美剧、日韩剧等高清影视资源，全部免费在线观看，更新及时，播放流畅。热播国产剧、经典欧美剧、精彩日韩剧，尽在电视剧在线。</p>
+    </div>
+    <div>
+      <h3>快速导航</h3>
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类总览</a>
+      <a href="rankings.html">热播榜单</a>
+      <a href="search.html">影片搜索</a>
+    </div>
+    <div>
+      <h3>热门分类</h3>
+      <div class="footer-tags"><a href="categories/featured-drama.html">精选剧场</a><a href="categories/chinese-drama.html">国产剧场</a><a href="categories/global-drama.html">欧美剧场</a><a href="categories/asia-drama.html">日韩剧场</a><a href="categories/suspense-crime.html">悬疑犯罪</a><a href="categories/action-adventure.html">动作冒险</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 电视剧在线 · 高清视频在线播放</div>
+</footer>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
